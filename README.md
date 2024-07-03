@@ -1,0 +1,2 @@
+This code take a black and white image and convert it black pixels into a list of numbers. These numbers contain the direction of a node in a quadtree, this means that 231 is a reference, for example, to a node in the third level of the tree at the northwest part of the southwest part of the northeast part of the quadtree. 
+Using this list of directions we can create a black and white image that take the directions of the nodes as a guide to built the image pixel by pixel.
